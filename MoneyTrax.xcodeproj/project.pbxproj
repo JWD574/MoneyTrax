@@ -19,6 +19,8 @@
 		501FCD8A293FA2E7000D9FA7 /* AddBudgetCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501FCD89293FA2E7000D9FA7 /* AddBudgetCategoryView.swift */; };
 		501FCD8C293FA5C0000D9FA7 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501FCD8B293FA5C0000D9FA7 /* String + Extension.swift */; };
 		501FCD8E293FCB4A000D9FA7 /* Number Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501FCD8D293FCB4A000D9FA7 /* Number Formatter.swift */; };
+		50A4159C294677BB00C3E0B8 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4159B294677BB00C3E0B8 /* AppTabBarView.swift */; };
+		50A4159E2946A1E200C3E0B8 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4159D2946A1E200C3E0B8 /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		501FCD89293FA2E7000D9FA7 /* AddBudgetCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetCategoryView.swift; sourceTree = "<group>"; };
 		501FCD8B293FA5C0000D9FA7 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 		501FCD8D293FCB4A000D9FA7 /* Number Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number Formatter.swift"; sourceTree = "<group>"; };
+		50A4159B294677BB00C3E0B8 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
+		50A4159D2946A1E200C3E0B8 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				501FCD57293F9238000D9FA7 /* ContentView.swift */,
+				50A4159B294677BB00C3E0B8 /* AppTabBarView.swift */,
+				50A4159D2946A1E200C3E0B8 /* CustomTabBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,12 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A4159E2946A1E200C3E0B8 /* CustomTabBarView.swift in Sources */,
 				501FCD58293F9238000D9FA7 /* ContentView.swift in Sources */,
 				501FCD56293F9238000D9FA7 /* MoneyTraxApp.swift in Sources */,
 				501FCD8E293FCB4A000D9FA7 /* Number Formatter.swift in Sources */,
 				501FCD8C293FA5C0000D9FA7 /* String + Extension.swift in Sources */,
 				501FCD88293F99E0000D9FA7 /* CoreDataManager.swift in Sources */,
 				501FCD8A293FA2E7000D9FA7 /* AddBudgetCategoryView.swift in Sources */,
+				50A4159C294677BB00C3E0B8 /* AppTabBarView.swift in Sources */,
 				501FCD86293F970D000D9FA7 /* BudgetModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

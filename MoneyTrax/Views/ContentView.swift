@@ -28,7 +28,7 @@ struct ContentView: View {
                 }
             }
         }
-        .foregroundColor(.primary)
+     
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button("Add New Category") {
